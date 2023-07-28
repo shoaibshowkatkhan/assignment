@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+header {
+    background-color: #ff6699;
+    color: #fff;
+    padding: 15px;
+}
+
+#upload-window {
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    max-width: 500px;
+    background-color: #fff;
+}
+
+#upload-window label {
+    font-weight: bold;
+}
+
+#image-info {
+    margin-top: 10px;
+}
+
+.image-container {
+    position: relative;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.image-container img {
+    max-width: 100%;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+}
